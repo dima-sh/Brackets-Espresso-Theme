@@ -41,8 +41,6 @@
 	color: #257cbf;
 	background-color: rgba(244, 250, 255, 0.5);
 	border-radius: 3px;
-	/*padding-left: 2px;
-	padding-right: 2px;*/
 	}
 .CodeMirror.CodeMirror-wrap span.cm-link {color: #815ba4;}
 .CodeMirror.CodeMirror-wrap span.cm-error {
@@ -80,10 +78,6 @@
 	color: #2375b2;
 }
 
-
-.CodeMirror.CodeMirror-wrap .CodeMirror-gutters {
-	left: -3px;
-}
 .CodeMirror.CodeMirror-wrap .CodeMirror-linenumber {
 	font-size: 9px;
 	color: #bababa;
@@ -230,10 +224,6 @@
 	top: 3px;
 	padding: 3px 6px;
 }
-/*#working-set-header div.btn-alt-quiet:hover {
-	background: #ADB9D1;
-	border-radius: 15px;
-}*/
 #sidebar #project-files-header {
 	border-top: 1px solid #CBD2DE;
 }
@@ -248,16 +238,6 @@
 #sidebar #project-files-container a {
 	padding-left: 10006px;
 }
-/*#project-files-container .jstree-open > a , #project-files-container .jstree-closed > a {
-	background: url('http://monosnap.com/image/qAXT2s5Xf7MLckyHLvyjx8n9h4eow2.png') no-repeat 10004px 4px;
-	background-size: 16px 16px;
-	padding-left: 10027px;
-}*/
-#sidebar .jstree-open > ins.jstree-icon {
-/*	left: -15px !important;*/
-}
-
-
 
 .toolbar .nav .dropdown-menu, .context-menu .dropdown-menu, .codehint-menu .dropdown-menu {
 	background-color: rgba(255, 255, 255, .9);

@@ -2,11 +2,11 @@ Espresso Theme for Brackets
 ==============
 Espresso (source editor for Mac) theme for Brackets with file icons (https://github.com/ivogabe/Brackets-Icons project) to the brackets file tree. 
 
-![Brackets Theme](http://monosnap.com/image/NpYv8vYA9sammjJxcdGPErkwwwLi6Q.png "Brackets Mac Theme")
+![Brackets Theme](http://monosnap.com/image/lrPRSIzWtSolFEBWGgwf9UnSGhG81v.png "Brackets Mac Theme")
 
 How to install
 --------------
-Open Brackets, and click the extensions button on the right. Search for 'Brackets Icons' and click install.
+Open Brackets, and click the extensions button on the right. Search for 'Espresso Theme for Brackets' and click install. You need to relaunch Brackets after installation.
 
 License
 -------

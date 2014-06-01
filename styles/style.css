@@ -69,7 +69,6 @@
 
 .panel #working-set-option-btn {
     background-image: url('../img/files_action.png') !important;
-/*    background-size: 23px 13px;*/
     padding-left: 8px !important;
     padding-right: 8px !important;
     border-radius: 10px;
@@ -78,14 +77,9 @@
 .panel #working-set-option-btn:hover, .panel #working-set-option-btn:active,  #working-set-header .git-close-not-modified:hover,  #working-set-header .git-close-not-modified:active {
     background-color: #CAD4E9;
     border-color: #ADB9D1;
-/*    background-size: 23px 13px;*/
 }
 .panel #working-set-option-btn:active , #working-set-header .git-close-not-modified:active  { box-shadow: inset rgba(0,0,0,0.3) }
-/*
-.panel .octicon.octicon-remove-close {
-    background-image: url('../img/close.png') !important;
-}
-*/
+
 #working-set-header .git-close-not-modified { right: 35px !important; border-radius: 10px !important; }
 #working-set-header .git-close-not-modified i {
     color: #8791a9 !important;
