@@ -6,7 +6,9 @@ Espresso (source editor for Mac) theme for Brackets with file icons (https://git
 
 How to install
 --------------
-Open Brackets, and click the extensions button on the right. Search for 'Espresso Theme for Brackets' and click install. You need to relaunch Brackets after installation.
+On "Extension Manager" click "Install from URL..." and put url "https://github.com/dima-sh/Brackets-Espresso-Theme".
+You have to relaunch Brackets after installation.
+
 
 License
 -------
