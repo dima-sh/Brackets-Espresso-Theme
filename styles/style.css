@@ -90,3 +90,11 @@
     border-top: 1px solid #f0f0f0;
 }
 .CodeMirror-linenumber.CodeMirror-gutter-elt {background-color: #FBFBFB !important;}
+
+#sidebar .working-set-option-btn.btn-alt-quiet {
+    background: url("../img/topcoat-settings-13.svg") 5px 3px no-repeat;
+}
+#sidebar .working-set-splitview-btn.btn-alt-quiet {
+    background: url("../img/split-view-icons.svg") 5px 5px no-repeat;
+    -webkit-filter: drop-shadow(0 1px 0 rgba(0,0,0,0.1));
+}
