@@ -20,12 +20,12 @@
 
 }
 #project-files-container a {
-	padding-left: 10009px;
+	padding-left: 9px;
 }
 #project-files-container .jstree-open > a , #project-files-container .jstree-closed > a {
-	background: url('../img/folder.png') no-repeat 10006px 4px !important;
+	background: url('../img/folder.png') no-repeat 6px 4px !important;
 	background-size: 16px 16px !important;
-	padding-left: 10026px !important;
+	padding-left: 27px !important;
 }
 .panel ul li .file-icon span {
     background-position-x: 0px !important;
@@ -35,6 +35,7 @@
     display: inline-block;
     width: 16px;
     height: 16px;
+    background-image: url('../img/filetypes-sprite.png') !important;
 }
 .panel ul li .file-icon span.generic {
     background-image: url('../img/file.png') !important;
@@ -67,13 +68,6 @@
     background-image: url('../img/doc-txt.png') !important;
 }
 
-.panel #working-set-option-btn {
-    background-image: url('../img/files_action.png') !important;
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-    border-radius: 10px;
-
-}
 .panel #working-set-option-btn:hover, .panel #working-set-option-btn:active,  #working-set-header .git-close-not-modified:hover,  #working-set-header .git-close-not-modified:active {
     background-color: #CAD4E9;
     border-color: #ADB9D1;
@@ -91,10 +85,25 @@
 }
 .CodeMirror-linenumber.CodeMirror-gutter-elt {background-color: #FBFBFB !important;}
 
+.panel #working-set-option-btn, #sidebar .working-set-option-btn.btn-alt-quiet {
+    background: url('../img/files_action.png') 4px 3px no-repeat !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+/*
 #sidebar .working-set-option-btn.btn-alt-quiet {
     background: url("../img/topcoat-settings-13.svg") 5px 3px no-repeat;
 }
+*/
 #sidebar .working-set-splitview-btn.btn-alt-quiet {
     background: url("../img/split-view-icons.svg") 5px 5px no-repeat;
     -webkit-filter: drop-shadow(0 1px 0 rgba(0,0,0,0.1));
+    opacity: 0.7;
+}
+.file-status-icon {
+    margin-top: -3px
+}
+.jstree-brackets li.git-modified > a:before, .open-files-container li.git-modified > a:before,
+.jstree-brackets li.git-new > a:before, .open-files-container li.git-new > a:before {
+    margin-left: -27px !important;
 }

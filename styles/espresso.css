@@ -248,13 +248,13 @@
 	line-height: 16px;
 }
 #sidebar .btn-alt-quiet {
-    background: none; 
+    background: none;
 }
 #sidebar .btn-alt-quiet:active {
 	background-color: #ADB9D1;
 }
 #sidebar #project-files-container a {
-	padding-left: 10006px;
+	padding-left: 8px;
 }
 
 .toolbar .nav .dropdown-menu, .context-menu .dropdown-menu, .codehint-menu .dropdown-menu {
@@ -304,6 +304,6 @@
 
 #sidebar .git-close-not-modified, .working-set-option-btn, .working-set-splitview-btn { top: 2px !important; }
 #sidebar .git-close-not-modified i {
-    color: #748689 !important;
+    color: #8994AA !important;
     text-shadow: 0 1px 0 rgba(255,255,255,0.3) !important;
 }
